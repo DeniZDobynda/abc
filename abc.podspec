@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "abc"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A shc."
 
   # This description is used to generate tags and improve search results.
@@ -119,8 +119,9 @@ Pod::Spec.new do |s|
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
-  s.library   = "libmyPod.a"
+  # s.library   = "libmyPod.a"
   # s.libraries = "iconv", "xml2"
+  s.vendored_libraries  = "libmyPod.a"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
